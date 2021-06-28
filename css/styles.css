@@ -5,7 +5,7 @@
   --color-grey: #757575;
   --color-wight: #ffffff;
   --font-main: "roboto";
-  --font-logo: "releway";
+  --font-logo: "raleway";
   --bgc: #2f303a;
   --bgc-lighter: #f5f4fa;
   --link-address: rgba(255, 255, 255, 0.6);
@@ -64,12 +64,15 @@ body {
   padding-bottom: 94px;
 }
 
-.header-conteiner {
-  display: flex;
-  align-items: center;
+.section-header {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+}
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -146,6 +149,8 @@ body {
   background-color: var(--bgc);
   padding-top: 200px;
   padding-bottom: 200px;
+  /* max-width: 1600px;
+  margin: 0px auto; */
 }
 
 .hero-conteiner {
@@ -297,17 +302,14 @@ body {
 /* ============== footer ============= */
 .section-fotter {
   background-color: var(--bgc);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-address {
   display: inline-block;
   margin-bottom: 20px;
   margin-right: auto;
-}
-
-.footer-conteiner {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* <!--========= address ============ --> */
@@ -346,7 +348,7 @@ body {
 .portfolio-btn-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
